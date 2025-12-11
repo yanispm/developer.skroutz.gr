@@ -68,12 +68,25 @@ only the following URLs:
 * the feed file products URLs: <%= settings.site_name.capitalize %> downloads a sample of
   the products for quality control
 
-<%= settings.site_name.capitalize %>Bot originates from the follοwing IPs:
+<%= settings.site_name.capitalize %>Bot originates from the follοwing IP ranges:
 
-  * **IPv6: 2a03:e40::/32**
-  * **IPv4: 185.6.76.0/22**
+**IPv4:**
 
-Make sure that the <%= settings.site_name.capitalize %>Bot IPs have always access
+* **185.6.76.0/22**
+* **3.73.204.153/32**
+* **3.72.204.195/32**
+* **3.67.183.221/32**
+* **63.34.193.172/32**
+* **54.195.53.34/32**
+* **108.129.50.199/32**
+
+**IPv6:**
+
+* **2a03:e40::/32**
+
+> You can also access the IP ranges in [JSON format](/ip_ranges.json) for programmatic consumption.
+
+Make sure that the <%= settings.site_name.capitalize %>Bot IP ranges have always access
 to the aforementioned URLs, without any rate limit.
 The xml link's domain does not matter.
 
